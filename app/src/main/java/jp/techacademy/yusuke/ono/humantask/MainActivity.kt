@@ -7,6 +7,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        
 
        val human1 = Human("小野",26, "kotlin")
        val human2 = Human("保坂", 25, "Ruby")
